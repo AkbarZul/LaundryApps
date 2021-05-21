@@ -2,10 +2,7 @@ import React from 'react';
 // import {StyleSheet} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import Home from '../screens/Home';
-import Splash from '../screens/Splash';
-import Pesanan from '../screens/Pesanan';
-import Akun from '../screens/Akun';
+import {Home, Splash, Akun, Pesanan} from '../pages';
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
